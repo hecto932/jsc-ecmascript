@@ -77,5 +77,55 @@ console.log(globalVar);
 // CONST
 
 const a = 'b';
-a = 'a';
+// a = 'a';
 console.log(a);
+
+// Object params before es6
+
+name = 'Hector';
+age = 28;
+
+const obj = { name: name, age: age };
+console.log(obj);
+
+const obj2 = { name, age };
+console.log(obj2);
+
+// ARROW FUNCTIONS
+
+let names = [
+  { name: 'Hector', age: 28 },
+  { name: 'Victoria', age: 26 },
+];
+
+let listOfNames = names.map(function (item) {
+  console.log(item.name);
+});
+
+let listOfNames2 = names.map((item) => console.log(item.name));
+
+let listOfNames3 = (name, age, country) => {
+  // ...
+};
+
+let listOfNames4 = (person) => {
+  // ...
+};
+
+let square = (num) => num * num;
+
+// PROMISES
+
+let helloPromise = () => {
+  return new Promise((resolve, reject) => {
+    if (false) {
+      resolve('Hey!');
+    } else {
+      reject('Upps!');
+    }
+  });
+};
+
+helloPromise()
+  .then((res) => console.log(res))
+  .catch((err) => console.error(err));
