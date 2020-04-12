@@ -1,0 +1,27 @@
+{
+  "name": "jsc-ecmascript",
+  "version": "1.0.0",
+  "description": "Understanding ECMASCRIPT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/hecto932/jsc-ecmascript.git"
+  },
+  "keywords": [
+    "ecmascript",
+    "javascript",
+    "ecma",
+    "es6",
+    "es7",
+    "es8"
+  ],
+  "author": "Hector Flores <hecto932@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hecto932/jsc-ecmascript/issues"
+  },
+  "homepage": "https://github.com/hecto932/jsc-ecmascript#readme"
+}
